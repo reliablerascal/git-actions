@@ -1,5 +1,11 @@
 # You can name this whatever you want
 name: daily
+
+#you will get an error on automatic updates committing if you don't have this line:
+permissions:
+  content: write
+
+
 # The 'on' section is about when this is run
 # workflow_dispatch makes there be a button on GitHub to let you run it manually
 # schedule and cron make it run at certain frequencies
